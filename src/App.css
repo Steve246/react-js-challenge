@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,64 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+/* add buat project dibaweah */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
+body {
+  background-image: url("image/background.jpeg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 800px;
+  align-items: center;
+}
+
+.container-form {
+  background-color: rgb(168, 218, 172);
+  margin: 20px;
+  padding: 20px;
+  
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.container-text {
+  /* border: 1px solid #fff; */
+  margin: 30px;
+  padding: 20px;
+
+  text-align: center;
+  color:white;
+  font-size: 30px;  
+}
+
+
+.button-style {
+  margin-top: 10px;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
